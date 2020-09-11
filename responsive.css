@@ -1,0 +1,78 @@
+@media screen and (max-width: 1024px) {
+  .title h1 {
+    font-size: 60px !important;
+  }
+  .about .about-contents {
+    width: 90%;
+  }
+  .about .about-contents .about-left img {
+    height: 260px;
+    width: 260px;
+  }
+  .about .about-contents .about-right .intro-text p {
+    width: 100%;
+  }
+  .about .about-contents .about-right h3 {
+    font-size: 22px;
+  }
+  .about .about-contents .about-right p {
+    font-size: 16px;
+  }
+  .skills-contents {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .skills-contents .skill {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .header-list {
+    display: none;
+    padding: 0 !important;
+  }
+  .header-list a {
+    padding: 0;
+  }
+  .menu-icon {
+    display: block !important;
+  }
+  .about-contents {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-contents .about-left {
+    width: 100% !important;
+  }
+  .about-contents .about-left img {
+    margin-top: 10px !important;
+  }
+  .about-contents .about-right {
+    width: 100% !important;
+  }
+  .skills-contents .skill {
+    width: 100% !important;
+  }
+  .service .service-left {
+    display: none;
+  }
+  .service .service-right {
+    width: 100% !important;
+  }
+  .works-contents {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .works-contents .works {
+    width: 100% !important;
+  }
+  .contact input, .contact textarea, .contact .submit {
+    width: 80% !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

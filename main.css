@@ -1,0 +1,309 @@
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-weight: normal;
+  font-size: 80px;
+  margin: 0;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-wrapper .header-list {
+  padding-top: 20px;
+}
+
+.header-wrapper a {
+  color: black;
+  margin-right: 20px;
+}
+
+.about {
+  background-image: url(https://beiz.jp/images_P/white/white_00032.jpg);
+  background-size: cover;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.about .about-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 76%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about .about-contents p {
+  font-weight: bold;
+}
+
+.about .about-contents .about-left {
+  width: 50%;
+}
+
+.about .about-contents .about-left img {
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 80px;
+  width: 300px;
+  height: 300px;
+}
+
+.about .about-contents .about-right {
+  width: 50%;
+}
+
+.about .about-contents .about-right h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.about .about-contents .about-right .intro {
+  padding: 10px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.about .about-contents .about-right .intro-text {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.about .about-contents .about-right .intro-text p {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.skills {
+  background-image: url(https://d1f5hsy4d47upe.cloudfront.net/0a/0a3dae3989031cc2168cfcfafb123b96_t.jpeg);
+  background-size: cover;
+  padding: 80px 0px;
+}
+
+.skills .title h1 {
+  color: white;
+}
+
+.skills .skills-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills .skills-contents .skill {
+  text-align: center;
+  width: 25%;
+}
+
+.skills .skills-contents .skill p {
+  font-size: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.skills .skills-contents img {
+  width: 200px;
+  height: 200px;
+}
+
+.service {
+  padding: 80px 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9Ez-bNYmsUgnSrkmdAocSnCgp6KZzYtvMDA&usqp=CAU);
+}
+
+.service .service-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.service .service-contents .service-left {
+  width: 40%;
+  text-align: center;
+}
+
+.service .service-contents .service-left img {
+  width: 100%;
+}
+
+.service .service-contents .service-right {
+  width: 60%;
+  text-align: center;
+}
+
+.service .service-contents .service-right h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.service .service-contents .service-right p {
+  font-size: 20px;
+}
+
+.service .service-contents .service-right .nouki {
+  color: red;
+  border-bottom: red 2px solid;
+  display: inline-block;
+  margin: 0;
+}
+
+.service .service-contents .service-right a {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  color: black;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.644);
+}
+
+.service .service-contents .service-right a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.works {
+  padding: 80px 0;
+}
+
+.works .title h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.works .works-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.works .works-contents .works {
+  padding: 0;
+  width: 30%;
+}
+
+.works .works-contents .works img {
+  width: 90%;
+  height: 60%;
+}
+
+.works .works-contents .works p {
+  font-size: 30px;
+  width: 40%;
+  border-bottom: 2px solid black;
+}
+
+.contact {
+  padding: 80px 0;
+  background-color: whitesmoke;
+}
+
+.contact .contact-contents {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact .contact-contents input {
+  height: 30px;
+}
+
+.contact .contact-contents input, .contact .contact-contents textarea, .contact .contact-contents .submit {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.contact .contact-contents .submit {
+  display: inline-block;
+  background-color: white;
+  padding: 10px 0;
+  opacity: 0.8;
+  color: black;
+}
+
+.contact .contact-contents .submit:hover {
+  opacity: 1;
+}
+
+.top-btn {
+  position: fixed;
+  right: 25px;
+  bottom: 54px;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+}
+
+.top-btn:hover {
+  opacity: 1;
+}
+
+.top-btn .fa {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.top-btn {
+  display: none;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.349);
+  text-align-last: center;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  font-size: 13px;
+}
+
+.menu-icon {
+  background-color: rgba(0, 0, 0, 0.253);
+  text-align-last: center;
+  line-height: 40px;
+  font-size: 28px;
+  width: 60px;
+  display: none !important;
+}
+/*# sourceMappingURL=main.css.map */
